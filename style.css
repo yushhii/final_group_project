@@ -1,6 +1,6 @@
 
 .collapse {
-    justify-content: center;
+    justify-content: space-between;
 }
 .carousel-caption {
     position: absolute;
@@ -22,4 +22,17 @@
 
 .content-secondary {
     margin-left: 30px;
+}
+
+.navbar-util {
+    display: flex;
+}
+
+.navbar-icon {
+    margin: auto;
+
+}
+
+.navbar-nav {
+    margin: auto;
 }
