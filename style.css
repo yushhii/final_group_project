@@ -11,28 +11,145 @@
 }
 
 .btn {
-    background-color: #449CCA;
+    background-color: #406A77;
     border: none;
 }
 
 .content-main {
+    width: 95%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.content-main-title {
     text-align: center;
-    margin-top: 40px;
 }
 
 .content-secondary {
     margin-left: 30px;
+    text-align: center;
 }
 
 .navbar-util {
     display: flex;
 }
 
-.navbar-icon {
+.navbar-icon a{
     margin: auto;
-
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .navbar-nav {
     margin: auto;
+}
+
+.content-secondary {
+    margin-top: 5%;
+}
+.wraper {
+    display:flex;
+}
+
+.features-grid-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-grid-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.features-grid-row-text {
+    margin-top: 4%;
+    width: 351px;
+}
+
+.features-grid-row-img {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-midsection {
+    width: auto;
+    height: 400px;
+    text-align: center;
+    background-image: url(./images/MidBanner.png);
+    margin-top: 5%;
+}
+
+.overlay-text  {
+    width: auto;
+    height: 400px;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.featured-prod {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card {
+    background-color: #D5DDE9;
+    margin-top: 5%;
+}
+
+.submit-inquiry {
+    margin-top: 5%;
+}
+
+.submit-inquiry .btn {
+    text-decoration: none;
+    color: #0095D5;
+}
+
+.btn-link {
+    background-color: white;
+}
+
+.review-title {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.reviews {
+    background-color: #D5DDE9;
+    width: 100%;
+    height: 374px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.reviewContainer {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review-img {
+    padding: 5%;
+}
+
+.foot-links {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.media li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+    font-size: 30px;
 }
